@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <div class="container">
+            <div id="calcWrapper" class="row col-md-4 offset-md-4">
+                <h2 id="logo">Calculator</h2>
+                <input type="text" id="inputVal" readonly>
+                <div id="keys">
+                    <input type="button" id="switch" class="btn " value="On">
+                    <button class="btn engineFunc" value="Math.sin">sin</button>
+                    <button class="btn engineFunc" value="Math.cos">cos</button>
+                    <button class="btn" value="(">(</button>
+                    <button class="btn" value=")">)</button>
+                    <button id="clearButton" class="btn">C</button>
+                    <button class="btn" value="1">1</button>
+                    <button class="btn" value="2">2</button>
+                    <button class="btn" value="3">3</button>
+                    <button class="btn " value="*">*</button>
+                    <button class="btn" value="4">4</button>
+                    <button class="btn" value="5">5</button>
+                    <button class="btn" value="6">6</button>
+                    <button class="btn" value="/">/</button>
+                    <button class="btn" value="7">7</button>
+                    <button class="btn" value="8">8</button>
+                    <button class="btn" value="9">9</button>
+                    <button class="btn" value="+">+</button>
+                    <button class="btn" value="0">0</button>
+                    <button class="btn" value=".">.</button>
+                    <button class="btn" value="-">-</button>
+                    <button id="calculateButton" class="btn">=</button>
+                    
+                </div>
+            </div>
+    </div>
+</body>
+</html>
+<script src="main.js"></script>
